@@ -96,8 +96,8 @@ def email():
     import smtpd,smtplib
     import imghdr
     
-    gmailaddress = "testemail9717@gmail.com"
-    gmailpassword = "test@987126"
+    gmailaddress = "enter your email"
+    gmailpassword = "enter your password"
     
     msg=EmailMessage()
     msg['subject']='hi dear'
